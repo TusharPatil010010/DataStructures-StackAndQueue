@@ -1,6 +1,7 @@
 package com.capg.datastructures.stackqueue;
 
 public class MyStack {
+	
 	private MyLinkedList stackList;
 
 	public MyStack() {

@@ -14,4 +14,12 @@ public class MyStack {
 	public void printStack() {
 		stackList.printNodes();
 	}
+	
+	public INode peak() {
+		return stackList.head;
+	}
+	
+	public INode pop() {
+		return stackList.pop();
+	}
 }
